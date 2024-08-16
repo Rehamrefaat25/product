@@ -1,0 +1,48 @@
+#details{
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+}
+#title{
+    color: rgb(170, 169, 169);
+    letter-spacing: 3px;
+}
+#price{
+    width: 100%;
+    display: flex;
+    column-gap:40px ;
+}
+#header{
+    margin: 0;
+    line-height: 30px;
+    font-size: 32px;
+}
+#para{
+    margin:0;
+}
+#cart{
+    border:none;
+    height:40px;
+    border-radius: 10px;
+ background-color:hsl(158, 36%, 37%);
+    cursor: pointer;
+    color: white;
+}
+#pricelabel{
+font-size: 30px;
+font-weight: 900;
+color:hsl(158, 36%, 37%);
+
+}
+#discount{
+
+    font-size: 15px;
+    color:gray;
+    margin-top: 10px;
+
+}
